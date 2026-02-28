@@ -1,59 +1,68 @@
-# HolaMundoAngular
+## ¿Qué es Angular?
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
+Angular es un framework para desarrollar aplicaciones web creado por Google. 
+Se utiliza principalmente para construir aplicaciones tipo SPA (Single Page Application), es decir, aplicaciones que funcionan en una sola página y cargan el contenido de forma dinámica sin recargar todo el sitio.
 
-## Development server
+Angular permite trabajar de manera organizada usando componentes, lo que facilita mantener el código ordenado y reutilizar partes del mismo.
 
-To start a local development server, run:
+---
 
-```bash
+## ¿Qué herramientas se necesitan instalar?
+
+Para poder trabajar con Angular es necesario instalar lo siguiente:
+
+### 1. Node.js
+Es un entorno que permite ejecutar JavaScript fuera del navegador.  
+También incluye npm, que es el gestor de paquetes.
+
+Para verificar que está instalado:
+
+node -v
+npm -v
+
+
+---
+
+### 2. Angular CLI
+Es la herramienta oficial para crear y administrar proyectos Angular desde la terminal.
+
+Se instala con el siguiente comando:
+
+npm install -g @angular/cli
+
+
+Para verificar la instalación:
+
+ng version
+
+
+---
+
+### 3. Editor de código
+Se recomienda usar Visual Studio Code porque facilita la programación y tiene buen soporte para Angular.
+
+---
+
+### 4. Navegador web
+Un navegador como Google Chrome para poder ejecutar y probar la aplicación.
+
+---
+
+## Crear y ejecutar un proyecto
+
+Para crear un nuevo proyecto:
+
+ng new nombre-del-proyecto
+
+
+Para ejecutar el proyecto:
+
+cd nombre-del-proyecto
 ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## Code scaffolding
+Luego abrir en el navegador:
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+http://localhost:4200
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+–--
